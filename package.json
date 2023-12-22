@@ -1,7 +1,7 @@
 {
   "name": "toy-robot",
-  "version": "0.0.1",
-  "description": "",
+  "version": "1.0.0",
+  "description": "Toy robot CLI",
   "author": "",
   "private": true,
   "license": "UNLICENSED",
