@@ -3,6 +3,9 @@
 The Toy robot is a simulation of a Toy that can move on a table with a pre defined dimensions. 
 The movement of the Toy robot is restricited by the dimensions of the surface of the table.   
 
+### Application 
+This is an interactive CLI application.  
+
 ### Requirments
 * Node version >= 16.x
 
@@ -24,7 +27,7 @@ First, start the CLI application
 $ npm run start:cli
 ```  
 Then you issue your first command.   
-The first command must be a PLACE command which is in the format `place x,y,north`. For example:
+Your first command must be a PLACE command which is in the format `place x,y,north`. For example:
 ```
 > place 0,0,north
 ``` 
@@ -40,12 +43,12 @@ To exit the application, you issue the exit command
 ```
 $ exit
 ```
-Or press ctrl+C . 
+Or press ctrl+C to exit.   
 
 #### Valid command
 Commands are of two categories
 1. __Place__: A place command puts the Robot on a given position on the table. For example `place 2,3,west` puts the robot at position(x=2, y=3) and facing west.  
-2. __Action__: An action command which could be: 
+2. __Action__: An action command which could be any of the following: 
   * `left`: Turns the robot in the anti-clockwise direction with respect to the cardinal directions.
   * `right`:  Turns the robot in the clockwise direction with respect to the cardinal directions.
   * `report`: Ouputs the current position to the screen in the form X,Y,CardinalDirection e.g `2,3,WEST`
